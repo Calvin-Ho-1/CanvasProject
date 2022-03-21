@@ -18,7 +18,7 @@ let board = [
 ];
 
 
-//!!!!!!!!!!!!!!!!!!!!!!!!!!ADD GAMEOVER SOUND EFFECT (It's still pika)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 var soundEfx;
 var soundItemFound = "sounds/pokemonitemfound.mp3"
 var soundGameOver = "sounds/pokemonrecovery.mp3";
