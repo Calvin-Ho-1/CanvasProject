@@ -286,6 +286,7 @@ var update = function (modifier) {
 		pikachu.x += pikachu.speed * modifier;
 		if (pikachu.x > ( 1000 - (32 +100 ) ) ) {
 			pikachu.x = 1000 - (32 +100 ); //adjusted
+			
 			//Adds a bump sound
 			//!!!! This will ONLY play if the player hits the wall by TAPPING IT!!! HOLDING THE MOVE KEY WILL NOT PLAY THE BUMP SOUND! 
 			//!!! This works, but it pops up that the play request was interrupted (in the console log).
