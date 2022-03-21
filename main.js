@@ -236,6 +236,7 @@ var update = function (modifier) {
 			pikachu.y = 0; //reason to make this 0 instead of the 32 pixel border is because of pikachu's image is small (and to not overlap with the "ketchups found" text)	
 			//adds a bump sound
 			//!!!! This will ONLY play if the player hits the wall by TAPPING IT!!! HOLDING THE MOVE KEY WILL NOT PLAY THE BUMP SOUND! 
+			//!!! This works, BUT it WILL pop up that it was interrupted by a new load request (in the console log). This does NOT affect the gameplay or causes any problems with the game.
 			soundEfx.src = soundBump;
 			soundEfx.play();
 		}
@@ -251,6 +252,7 @@ var update = function (modifier) {
 			pikachu.y = 1000 	 -160; //adjusted
 			//adds a bump sound
 			//!!!! This will ONLY play if the player hits the wall by TAPPING IT!!! HOLDING THE MOVE KEY WILL NOT PLAY THE BUMP SOUND! 
+			//!!! This works, BUT it WILL pop up that it was interrupted by a new load request (in the console log). This does NOT affect the gameplay or causes any problems with the game.
 			soundEfx.src = soundBump;
 			soundEfx.play();
 		}
@@ -265,6 +267,7 @@ var update = function (modifier) {
 			pikachu.x = 5; //adjusted
 			//adds a bump sound
 			//!!!! This will ONLY play if the player hits the wall by TAPPING IT!!! HOLDING THE MOVE KEY WILL NOT PLAY THE BUMP SOUND! 
+			//!!! This works, BUT it WILL pop up that it was interrupted by a new load request (in the console log). This does NOT affect the gameplay or causes any problems with the game.
 			soundEfx.src = soundBump;
 			soundEfx.play();
 		}
@@ -279,6 +282,7 @@ var update = function (modifier) {
 			pikachu.x = 1000 - (32 +100 ); //adjusted
 			//Adds a bump sound
 			//!!!! This will ONLY play if the player hits the wall by TAPPING IT!!! HOLDING THE MOVE KEY WILL NOT PLAY THE BUMP SOUND! 
+			//!!! This works, BUT it WILL pop up that it was interrupted by a new load request (in the console log). This does NOT affect the gameplay or causes any problems with the game.
 			soundEfx.src = soundBump;
 			soundEfx.play();
 		}
